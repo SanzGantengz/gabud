@@ -9,7 +9,7 @@ int main()
   
   /**
    * @gabud :v
-   *jadi kwren :v
+   * jadi kwren :v
   */
   
   cout << "pola ke-1\n";
@@ -60,5 +60,15 @@ int main()
     cout << endl;
   }
   
+  cout << "pola ke-5\n\n";
+  
+  for(int v = 1; v <= a; v++){
+    for(int z = 5; z >= v; z--){
+      cout << " # ";
+    }
+    cout << endl;
+  }
+  
   cin.get();
+  
 }
